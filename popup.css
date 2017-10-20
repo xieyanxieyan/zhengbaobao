@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    font-size: 13px;
+    color: #333;
+    font-family: 'Microsoft YaHei', Verdana, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 4px 12px;
+    background: #1A253A;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    cursor: pointer;
+    line-height: 38px;
+    transition: all .3s ease;
+}
+
+#phone {
+    margin: 0 3px;
+}
+
+ul > li {
+    background: #20A0FF;
+    border-bottom: none;
+}
+
+ul > li .user span {
+    padding: 3px 5px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.model {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    background: #f00;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.onmodel {
+    z-index: 10;
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+   display:none;
+    padding: 15px;
+    position: absolute;
+    top: 80px;
+    height: 120px;
+    text-align: center;
+}
+
+.Screenshot {
+  display:none;
+
+}
+
+.makesure {
+    margin-top: 50px;
+}
+
+.cancelLog {
+    text-align: center;
+}
+
+.checked {
+    background: #437dff;
+    border: 1px solid #437dff;
+}
+
+.reason {
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    margin: 10px auto;
+}
+
+.cha01 {
+    width: 34px;
+    height: 34px;
+    background: url("img/cha01.jpg");
+    display: inline-block;
+    border-radius: 50% 50%;
+
+}
+
+.operationBar a {
+    font-size: 12px;
+}
+
+.redbtn {
+    background: #dc4849;
+    border: 1px solid #dc4849;
+    margin-left: 30px;
+}
+
+.cha02 {
+    /*background: url('img/cha02.jpg');*/
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    cursor: pointer;
+}
+
+.Screenshot {
+    color: #fff;
+    font-size: 12px;
+    width: 250px;
+   display:none;
+    padding-top:30px;
+}
+
+.printing {
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+}
+
+.hidde {
+    display: none;
+}
+
+
+.operationBar a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.login li {
+    text-align: left;
+}
+
+.login li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.onmodel a {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.icon {
+    width: 20px;
+    float: left;
+    /*margin-right: -10px;*/
+    margin-left: 0px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.suo {
+    background: url(img/suo.png) no-repeat center;
+}
+
+.icon01 {
+    background: url(img/icon01.png) no-repeat center;
+    margin-right: 10px;
+}
+
+.icon02 {
+    background: url(img/icon02.png) no-repeat center;
+}
+
+.icon03 {
+    background: url(img/icon03.png) no-repeat center;
+}
+
+.icon04 {
+    background: url(img/icon04.png) no-repeat center;
+}
+
+.icon05 {
+    background: url(img/icon05.png) no-repeat center;
+}
+
+.icon06 {
+    background: url(img/icon06.png) no-repeat center;
+    width: 21px;
+}
+
+li > div {
+    float: left;
+}
+
+.num {
+    margin-right: 10px;
+}
+
+li .items {
+    margin: 0 25px;
+}
+
+li .adjust {
+    justify-content: flex-start;
+}
+
+.cancel {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+}
+
+.storeSpace {
+    z-index: 10;
+    width: 250px;
+    background: #000;
+    opacity: 0.8;
+   display:none;
+    padding: 15px;
+    position: absolute;
+    top: 80px;
+    height: 120px;
+    text-align: center;
+}
+
+.button {
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px 25px;
+    background: transparent;
+}
+
+/*.storeSpace .button {*/
+/*border: 1px solid #fff;*/
+/*}*/
+.storeSpace .sure {
+    background: #20A0FF;
+}
+
+/*.storeSpace a:first-child {*/
+/*margin-right: 80px;*/
+/*}*/
+
+.storeSpace div {
+    color: #fff;
+}
+
+.checked {
+    background: #20A0FF;
+}
+
+.abolish {
+    background: #dc4849;
+    border: 1px solid #dc4849;
+    margin-left: 10px;
+}

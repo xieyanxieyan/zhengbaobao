@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />-->
+    <meta charset="utf-8">
+    <title>zbb</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src='popup.js'></script>
+    <script src="background.js"></script>
+</head>
+<body>
+<ul>
+    <li id="login">
+        <i class="icon01 icon"></i>
+        <div id="phone"></div>
+        <div class="user">
+            <span>用户中心</span>
+        </div>
+    </li>
+    <div class="isShow">
+        <li id="print">
+            <i class="icon02 icon"></i>
+            <div class="items">网页打印</div>
+            <div>成功：<span class="resSuccess num"></span></div>
+            <div>请求：<span class="requestNum"></span></div>
+        </li>
+        <li id="capture">
+            <i class="icon03 icon"></i>
+            <div class="items">网页截屏</div>
+            <div>成功：<span class="short_success num"></span></div>
+            <div>请求：<span class="shortcut_total"></span></div>
+        </li>
+        <li id="doc">
+            <i class="icon04 icon"></i>
+            <div class="items adjust">文档保全</div>
+        </li>
+        <li id="pay">
+            <i class="icon05 icon"></i>
+            <div class="items">充值中心</div>
+            <div>余额：<span id="remain"></span>元</div>
+        </li>
+        <li id="logout">
+            <i class="icon06 icon"></i>
+            <div class="items adjust">退出登录</div>
+
+        </li>
+        <!--模板结束-->
+        <!--模板点开退出登录确认功能-->
+        <div class="storeSpace" style="">
+            <div style="margin-top:20px;">你确定要退出登录吗？</div>
+            <div class="makesure">
+                <a href="javascript:void(0)" class="checked sure button">确定</a>
+                <a href="javascript:void(0)" class="abolish button">取消</a>
+            </div>
+        </div>
+        <!--退出登录弹出结束-->
+        <div class="Screenshot onmodel">
+            <!--网页请求失败去掉直接改内容-->
+            <div class="spaceShort">
+                <div class="cancelLog can">进行“网页打印操作”将扣除2.00元余额</div>
+                <div class="reason">存储空间不足</div>
+                <div class="operationBar">
+                    <a class="button checked can addml" href="javascript:void(0)">去扩容</a>
+                    <a class="button abolish can" href="javascript:void(0)">取消</a>
+                </div>
+            </div>
+            <!--切换到网页打印-->
+            <!--<div class="printing hidden">网页打印中，您稍后可在用户中心查看</div>-->
+            <span class="cha02 can">x</span>
+        </div>
+    </div>
+</ul>
+
+
+</body>
+</html>

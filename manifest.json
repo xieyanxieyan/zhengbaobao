@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "id":"com.zbb.fa123",
-  "author":"fengyu",
+  "id": "com.zbb.fa123",
+  "author": "fengyu",
   "name": "证宝宝",
-  "version": "2.0.1",
-  "update_url":"https://clients2.google.com/service/update2/crx",
+  "version": "2.1.2",
+  "update_url": "https://clients2.google.com/service/update2/crx",
   "description": "证宝宝取证插件，由法律科技领域领先的北京枫玉科技有限公司全新研发，是网页取证、文档保全的神器，帮助用户实现“随手记录事实，随时还原真相”、“有证才会赢”。",
   "icons": {
     "19": "img/icon19.png",
@@ -23,9 +23,12 @@
     "tabs"
   ],
   "background": {
-    "name":"My extension",
-    "scripts": ["jquery-3.2.1.min.js","background.js"],
-    "persistent":false
+    "name": "My extension",
+    "scripts": [
+      "jquery-3.2.1.min.js",
+      "background.js"
+    ],
+    "persistent": false
   },
   "content_scripts": [
     {
